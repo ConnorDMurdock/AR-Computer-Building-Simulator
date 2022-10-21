@@ -1,0 +1,6 @@
+This is the motherboard. It is a special circuit board that let's all of the computer's main components talk with each other and exchange information. #expression:neutral
+It can look very intimidating at first, but there are only a few places that are important to know about when building a computer! #expression:error
+Some computer parts are installed directly onto the motherboard, while others are installed elsewhere in the case and are plugged in to the motherboard using a cable. #expression:neutral
+Another important aspect of a motherboard is the ports. These are the colorful components seen at the top left of the board. This is where your devices, such as a mouse and keyboard, can be plugged in. We will cover ports in more detail later in this lesson.
+For now, let's go ahead and install the motherboard! #expression:happy
+A motherboard is usually installed by screwing it directly into the back of the computer case. The ports stick out through a hole in the back of the case so they can be accessed later. #expression:neutral
