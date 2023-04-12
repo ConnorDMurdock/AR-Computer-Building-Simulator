@@ -1,0 +1,3 @@
+Next up is the mouse and keyboard. This is what you use to control the computer #expression:neutral
+Most mouses and keyboards nowadays are plugged into USB slots. This is the most common peripheral cable type used. You can find several of these slots both in the motherboard, and usually somewhere on the case too.
+All you have to do is plug the mouse and keyboard in to the computer, and it will handle the rest!

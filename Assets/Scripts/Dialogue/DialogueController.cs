@@ -199,6 +199,16 @@ public class DialogueController : MonoBehaviour
         }
     }
 
+    public void MuteAudio()
+    {
+        audioSource.volume = 0;
+    }
+
+    public void UnmuteAudio()
+    {
+        audioSource.volume = 1;
+    }
+
     public static DialogueController GetInstance()
     {
         return instance;

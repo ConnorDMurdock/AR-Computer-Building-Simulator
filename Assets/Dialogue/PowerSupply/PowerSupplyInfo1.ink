@@ -1,0 +1,5 @@
+This is the power supply. It supplies power from an outlet to the entire computer. #expression:neutral
+The power supply is one of the simpler parts of a computer. It has a cable that connects to an outlet, a switch on the back that acts as a "ON/OFF" switch, and a bundle of cables that are plugged into different parts of the computer to give it power.
+The bundle of cables looks complicated, but in reality, you won't need to use all the connections! #expression:error
+The main connections you will need, are the ones that connect to the motherboard, the graphics card (if necessary), any hard drives you might have, and any solid-state drives you might have. (more on those later!) #expression:neutral
+For now, let's install the power supply into the case and make the connections we can. To install it, you simply screw it into the open slot at the bottom of the case.

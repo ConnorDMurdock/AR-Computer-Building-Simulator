@@ -1,0 +1,5 @@
+The computer is now complete! That's the entire process from start to finish! Well done! #expression:happy
+As you can see, this computer is running the Windows Operating System. While Windows is recommended for most built computers, Linux is also a valid option to install. macOS is extensively used as well, especially in many professional settings. #expression:neutral
+After this message is complete, you will have successfully earned every badge. Congratulations on making it through everything! #expression:happy
+I sincerely hope you enjoyed the app. Feel free to take a closer look at everything and explore, and when you are ready to be done, just take a screenshot of the completed badges screen! #expression:neutral
+This is goodbye for now. I hope to see you again soon! Until next time, take care, and thanks for learning together with me! #expression:happy

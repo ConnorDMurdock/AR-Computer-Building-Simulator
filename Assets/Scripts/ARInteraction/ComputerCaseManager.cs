@@ -8,8 +8,8 @@ public class ComputerCaseManager : MonoBehaviour
 {
     public static ComputerCaseManager instance;
 
+    //References to all of the objects needed by this script to do the place case sequence properly
     [Header("Game Objects")]
-    //[SerializeField] private GameObject computerCaseParentObject;
     [SerializeField] private GameObject placementCursor;
     [SerializeField] private GameObject placeCaseButton;
     [SerializeField] private GameObject surfaceErrorMessage;
@@ -28,6 +28,7 @@ public class ComputerCaseManager : MonoBehaviour
 
     private GameObject[] otherUIElements;
 
+    //Gets all of the UI elements with the User Interface tag and gives an error if there is more than one singleton instance of this script
     private void Awake()
     {
         if (instance != null)
@@ -42,6 +43,8 @@ public class ComputerCaseManager : MonoBehaviour
         otherUIElements = GameObject.FindGameObjectsWithTag("User Interface");
     }
 
+    //If the placement pose is valid and the place case button is pressed, place the case at the cursor point
+    //Otherwise, continue to update the placement pose and the cursor
     private void Update()
     {
         if (beingPlaced)
@@ -64,6 +67,7 @@ public class ComputerCaseManager : MonoBehaviour
         isPlacedPressed = true;
     }
 
+    //Starts the placement process
     public void StartPlacementProcess()
     {
         beingPlaced = true;
@@ -71,6 +75,7 @@ public class ComputerCaseManager : MonoBehaviour
         computerCase.SetActive(false);
     }
 
+    //Updates the current placement position by using raycasts from the center of the screen to detect transform from where the raycast hits on the detected planes
     private void UpdatePlacementPose()
     {
         var screenCenter = Camera.main.ViewportToScreenPoint(new Vector3(0.5f, 0.5f));
@@ -84,6 +89,8 @@ public class ComputerCaseManager : MonoBehaviour
         }
     }
 
+    //While in placement mode, update the UI cursor to the current placement location
+    //If no surface found, disable the place case button, show the user an error, and prevent the cursor from showing until a surface is found by the app
     private void UpdatePlacementCursor()
     {
         if (!computerCase.activeInHierarchy && placementPoseIsValid)
@@ -101,6 +108,8 @@ public class ComputerCaseManager : MonoBehaviour
         }
     }
 
+    //Sets the transform of the computer case to the transform of the cursor used during placement
+    //also turns off the UI for placing the case and turns on the main game UI components
     private void PlaceObject()
     {
         placementCursor.SetActive(false);
@@ -116,6 +125,7 @@ public class ComputerCaseManager : MonoBehaviour
         placeCaseButton.SetActive(false);
     }
 
+    //Turns off all UI elements in the game to clear up the screen while the case is placed
     private void DisableOtherUIElements()
     {
         foreach (GameObject objects in otherUIElements)
@@ -124,6 +134,7 @@ public class ComputerCaseManager : MonoBehaviour
         }
     }
 
+    //Gets the instance of this singleton class
     public static ComputerCaseManager GetInstance()
     {
         return instance;

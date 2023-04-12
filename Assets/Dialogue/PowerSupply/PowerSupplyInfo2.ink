@@ -1,0 +1,5 @@
+As always, well done on the installation! We're getting closer and closer to the end! #expression:happy
+Power supplys are categorized by the amount of power they provide in wattage. When purchasing a power supply, it's important to make sure it can supply enough power for everything! #expression:neutral
+The two largest power draws on a computer are the CPU and the Graphics Card, and if they don't get enough power, your computer can run into errors, freeze up, or even break! #expression:error
+Therefore, it is recommended to figure out how much power your computer parts will need ahead of time, and then purchase an appropriate wattage power supply. This is not a part you will want to cheap out on! #expression:neutral
+Next up is the Hard Drive and Solid-State Drive. Select them from the menu when you are ready to proceed!

@@ -1,0 +1,4 @@
+There are a lot of different peripherals a computer can use, so we will only cover the most important ones here. #expression:neutral
+First up is the Monitor. The monitor is what you actually see everything on while using a computer.
+It is simple to set up, you just have to plug it into an outlet for power, and then plug it into the computer using a cable, generally an HDMI cable or a "Display Port" cable.
+Just make sure to plug it into the Graphics Card, and NOT the motherboard if you have one! Otherwise, your graphics card is basically a hunk of useless metal, and the computer can't use it at all! #expression:error
